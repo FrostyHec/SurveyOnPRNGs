@@ -1,0 +1,9 @@
+
+d
+java:S2184"BCast one of the operands of this division operation to a "double".(…¶¯þúÿÿÿÿ8è¦¤°Ò1
+m	java:S116"QRename this field "LENGTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸¹±÷8ï¦¤°Ò1
+m	java:S116	"QRename this field "FACTOR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤úì´8ï¦¤°Ò1
+j	java:S116
+"ORename this field "TAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…³ª*8ï¦¤°Ò1
+S
+java:S1128"7Remove this unused import 'prngtest.tools.ToBitHelper'.(Žª²/8£½Œ»Ò1

@@ -1,0 +1,17 @@
+
+P
+java:S1121F".Extract the assignment out of this expression.(Æ°¨Îşÿÿÿÿ8ŸáÓÒ1
+j	java:S116"NRename this field "LEN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÈ¸«8¤áÓÒ1
+l	java:S116"PRename this field "LAG_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÈ¸«8¤áÓÒ1
+l	java:S116"PRename this field "LAG_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÈ¸«8¤áÓÒ1
+;
+java:S1659"Declare "k" on a separate line.(¢›)8¥áÓÒ1
+_
+java:S1659"BDeclare "LAG_1" and all following declarations on a separate line.(æÈ¸«8¥áÓÒ1
+]	java:S125K"<This block of commented-out lines of code should be removed.(÷Ö¢şÿÿÿÿ8†›¤ÕÒ1
+S
+java:S1128"7Remove this unused import 'prngtest.tools.ToBitHelper'.(ª²/8‡›¤ÕÒ1
+A
+java:S1068"%Remove this unused "j" private field.(¢›)8«áÓÒ1
+A
+java:S1068"%Remove this unused "k" private field.(¢›)8«áÓÒ1

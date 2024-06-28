@@ -1,0 +1,12 @@
+size:1000000 * 10
+MiddleSquare(MSG) 356ms seed:1234869890732L otherParam: len=13
+WeylSeqMiddleSquare(MSWSG) 369ms seed:0 otherParam: w=0,weylConst=0xb5ad4eceda1ce2a9L
+LCG 355ms seed=25214903917L otherParam:mod=1L << 48, a=0x5DEECE66DL, c=0xBL
+PMLCG 292ms seed=10, mod=(1L << 31) - 1, a=16807
+PCG 356ms seed=10
+LFG 297ms
+MLFG 299ms
+LFSR 298ms
+MT 324ms
+BBS 2218ms
+SecureRand 3179ms

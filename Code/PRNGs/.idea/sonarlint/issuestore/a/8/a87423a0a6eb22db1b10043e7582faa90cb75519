@@ -1,0 +1,12 @@
+
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¯µÒ¡üÿÿÿÿ8¹¿ãæÒ1
+v	java:S115	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ò ƒ¿8¹¿ãæÒ1
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Á…€›8¹¿ãæÒ1
+h	java:S116"LRename this field "D" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•°Ò¶8¹¿ãæÒ1
+R
+java:S1854"5Remove this useless assignment to local variable "o".(î·îÆ8¼¿ãæÒ1
+C
+java:S1481"&Remove this unused "o" local variable.(î·îÆ8½¿ãæÒ1
+X	java:S125%"<This block of commented-out lines of code should be removed.(îË¡²8½¿ãæÒ1
+d
+java:S1128"BRemove this unused import 'prngtest.interfaces.InitSeedConstrain'.(™Ç˜×øÿÿÿÿ8¾¿ãæÒ1

@@ -1,0 +1,6 @@
+
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ŒĞ¶8ş’äÒ1
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¯µÒ¡üÿÿÿÿ8‚“äÒ1
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ò ƒ¿8‚“äÒ1
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Á…€›8‚“äÒ1
+h	java:S116"LRename this field "D" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•°Ò¶8‚“äÒ1

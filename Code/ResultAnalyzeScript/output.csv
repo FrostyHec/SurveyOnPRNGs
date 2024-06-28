@@ -1,0 +1,15 @@
+Frequency,10\10,0.213309
+BlockFrequency,10\10,0.911413
+CumulativeSums,20\20,0.562361
+Runs,9\10,0.739918
+LongestRun,10\10,0.534146
+Rank,10\10,0.534146
+FFT,10\10,0.911413
+NonOverlappingTemplate,1467\1480,0.5447472972972982
+OverlappingTemplate,10\10,0.534146
+Universal,10\10,0.739918
+ApproximateEntropy,10\10,0.122325
+RandomExcursions,55\56,/
+RandomExcursionsVariant,126\126,/
+Serial,20\20,0.637032
+LinearComplexity,10\10,0.534146
