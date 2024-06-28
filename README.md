@@ -5,10 +5,10 @@
 [中文](#项目介绍) /
 [English](#project-introduction)
 
-南方科技大学2023秋季 `CS215 离散数学(H)`附加分课设：[**伪随机数生成器调研报告**](Docs/Report/黄政东 伪随机数生成器调研报告.pdf)
+南方科技大学2023秋季 `CS215 离散数学(H)`附加分课设：**[伪随机数生成器调研报告](Docs/Report/黄政东 伪随机数生成器调研报告.pdf)**
 
 Southern University of Science and Technology, Autumn 2023
-`CS215 Discrete Mathematics(H)` Bonus Project: [**Survey On Pseudo-Random Number Generators**](Docs/Report/黄政东 伪随机数生成器调研报告.pdf))
+`CS215 Discrete Mathematics(H)` Bonus Project: **[Survey On Pseudo-Random Number Generators](Docs/Report/黄政东 伪随机数生成器调研报告.pdf)**
 
 对主流伪随机数生成算法进行了调研并实现了相应的Java代码，同时使用[NIST](https://www.nist.gov/)对伪随机数生成算法效果进行了测试。此外对主流语言/操作系统
 所使用的的伪随机数生成算法进行了汇总，最终对伪随机数算法的应用与发展做出展望。
