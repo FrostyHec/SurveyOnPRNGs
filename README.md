@@ -5,19 +5,20 @@
 [中文](#项目介绍) /
 [English](#project-introduction)
 
-南方科技大学2023秋季 `CS215 离散数学(H)`附加分课设：[**伪随机数生成器调研报告
-**](Docs/Report/黄政东_伪随机数生成器调研报告.pdf)
+南方科技大学2023秋季 `CS215 离散数学(H)`附加分课设：[伪随机数生成器调研报告
+](Docs/Report/黄政东_伪随机数生成器调研报告.pdf)
 
 Southern University of Science and Technology, Autumn 2023
-`CS215 Discrete Mathematics(H)` Bonus Project: [**Survey On Pseudo-Random Number Generators
-**](Docs/Report/黄政东_伪随机数生成器调研报告.pdf)
+`CS215 Discrete Mathematics(H)` Bonus Project: [Survey On Pseudo-Random Number Generators
+](Docs/Report/黄政东_伪随机数生成器调研报告.pdf)
 
-对主流伪随机数生成算法进行了调研并实现了相应的Java代码，同时使用[NIST](https://www.nist.gov/)
+对主流伪随机数生成算法进行了调研并实现了相应的Java代码，同时使用[NIST PRNG test suit](https://csrc.nist.gov/publications/detail/sp/800-22/rev-1a/final)
 对伪随机数生成算法效果进行了测试。此外对主流语言/操作系统
 所使用的的伪随机数生成算法进行了汇总，最终对伪随机数算法的应用与发展做出展望。
 
 Investigation on mainstream pseudo-random number generation algorithms,
-corresponding with Java code implementation. Leverage with [NIST](https://www.nist.gov/), the
+corresponding with Java code implementation. Leverage
+with [NIST PRNG test suit](https://csrc.nist.gov/publications/detail/sp/800-22/rev-1a/final), the
 effects of the
 pseudo-random
 number generation algorithms also have been tested. In addition, the pseudo-random number generation
@@ -106,17 +107,17 @@ PRNGs based on primitives and proofs). Many recent PRNG papers also include proo
 randomness, which are very well-founded ~~and quite challenging to understand~~.
 
 The process of evaluating PRNGs was actually quite fast. The official NIST documentation contains
-some guides. Leverage with Python script for processing results, the entire workflow of 
-evaluating PRNGs became very clear and smooth (Only need to focus on Implementing PRNGs, the 
+some guides. Leverage with Python script for processing results, the entire workflow of
+evaluating PRNGs became very clear and smooth (Only need to focus on Implementing PRNGs, the
 result can be easily collected with required format just by some simple commands).
 
 After the survey, I realized that **any sequence that might be exposed to users should be
-evaluated for the risk of prediction and consider switching to CSPRNGs if necessary**. For 
+evaluated for the risk of prediction and consider switching to CSPRNGs if necessary**. For
 example, in
 Java, the RandomInt only requires two consecutive items from the random sequence to predict the
-entire subsequent sequence. Even worse, RandomLong only needs one item to predict everything. 
+entire subsequent sequence. Even worse, RandomLong only needs one item to predict everything.
 Therefore, many scenarios should use SecureRandom instead of the Random, not just for cryptographic
-purposes but also for scenarios like lotteries and verification codes. (It is also important to 
+purposes but also for scenarios like lotteries and verification codes. (It is also important to
 read the notice of using CSPRNGs in Linux/Windows/... to avoid things like entropy exhausted)
 
 Writing the random sequence predictor was quite interesting ~~(but due to time constraints, I only
