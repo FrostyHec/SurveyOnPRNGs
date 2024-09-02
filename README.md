@@ -27,7 +27,7 @@ application and development of pseudorandom number algorithms.
 
 开发列表 / Developers :  [@Frosky Lrupotkin](https://github.com/FrostyHec)
 
-得分 / Score : 4.5/5
+Bonus得分 / Bonus Score : 4.5/5
 
 </div>
 
